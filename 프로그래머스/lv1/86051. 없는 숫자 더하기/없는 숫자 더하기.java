@@ -1,8 +1,13 @@
 class Solution {
     public int solution(int[] numbers) {
         int answer = 45;
-        for (int n:numbers) {
-            answer -= n;
+        
+        
+        
+        for(int i=0;i<numbers.length;i++){
+            answer = answer - numbers[i];
+            
+            
         }
         return answer;
     }
